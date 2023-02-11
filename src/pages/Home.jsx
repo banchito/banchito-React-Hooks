@@ -6,13 +6,7 @@ const Home = () => {
 const { darkTheme } = useContext(ThemeContext)
   return (
     <>
-      <h1 className='mb-3'>React Hooks</h1>{' '}
-      <h5>
-        Code examples from{' '}
-        <a href='https://www.youtube.com/@WebDevSimplified' target='_blank'>
-          Web Dev Simplified
-        </a>{' '}
-      </h5>
+      <h1 className='mb-3'>React Hooks</h1> <h5>Code examples from </h5>
       <ul className='list-group  '>
         <Link
           className={
